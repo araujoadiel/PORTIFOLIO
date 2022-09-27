@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.max-width{
+    max-width: 1300px;
+    padding:  0 80px;
+    margin: auto;
+}
+.navbar{
+    position: fixed;
+    padding: 15px 0;
+    width: 100%;
+    font-family: 'goldman';
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo{
+    border-radius: 15px;
+    background:#fff;
+}
+.navbar .logo a{
+    color: #f2B705;
+    font-size: 40px;
+    font-weight: 500;
+}
+.navbar .logo a span{
+    color: #006494;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a {
+    color:  #f2B705;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 30px;
+    transition: color 0.3s ease;
+}
+.navbar .menu li a:hover{
+    color: #006494;
+}
+/*Início do home*/
+.home{
+    display: flex;
+    background: url(IMGPTF/banner.png) no-repeat center;
+    height: 98vh;
+    color: #f2B705;
+    min-height: 500px;
+    font-family: goldman;
+    background-color:#94A1A6;
+}
+.home .max-width{
+    margin: auto 0 auto 40px;
+}
+.home .home-content .text-1{
+    font-size: 25px;
+    position: unset;
+}
+.home .home-content .text-2{
+    font-size: 74px;
+    font-weight: 500;
+    position: initial;
+}
+.home .home-content .text-3{
+    font-size: 45px;
+    margin: 5px 0;
+}
+.home .home-content .text-4{
+    font-size: 45px;
+    font-weight: 500;
+}
+.home .home-content .text-5{
+    font-size: 45px;
+    font-weight: 500;
+    color: #006494;
+}
+.home .home-content .text-6{
+    font-size: 45px;
+    font-weight: 500;
+    color: #006494;
+}
